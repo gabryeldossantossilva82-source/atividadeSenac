@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<form id="meuForm">
+    <input type ="text" id="nome" placeholder="Nome">
+    <input type ="email" id="email" placeholder="Email">
+    <button type="submit">Cadastrar</button>
+</form>
+
+<script> 
+    document.getElementById('meuForm').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+    
+    });
+</script>
